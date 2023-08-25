@@ -1,3 +1,8 @@
+# 631211
+# Für eine natürliche Zahl n sei P(n) das Produkt ihrer von 0 verschiedenen Ziffern.
+# Beispielsweise ist also P(2023) = 2 · 2 · 3 = 12.
+# Man ermittle, wie viele vierstellige Zahlen n mit der Eigenschaft P(n) = 12 existieren.
+
 counter = 0
 for i in range(1000,10000):
     product = 1
